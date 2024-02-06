@@ -1,3 +1,6 @@
+SUMMARY = "A small image to rest deploying on RPI4"
+LICENSE = "MIT"
+
 inherit core-image
 
 IMAGE_INSTALL = "packagegroup-core-boot"
