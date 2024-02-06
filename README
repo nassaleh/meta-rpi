@@ -1,4 +1,4 @@
-This README file contains information on the contents of the meta-helloworld layer.
+This README file contains information on the contents of the meta-rpi layer.
 
 Please see the corresponding sections below for details.
 
@@ -18,7 +18,7 @@ Dependencies
 Patches
 =======
 
-Please submit any patches against the meta-helloworld layer to the xxxx mailing list (xxxx@zzzz.org)
+Please submit any patches against the meta-rpi layer to the xxxx mailing list (xxxx@zzzz.org)
 and cc: the maintainer:
 
 Maintainer: XXX YYYYYY <xxx.yyyyyy@zzzzz.com>
@@ -26,16 +26,16 @@ Maintainer: XXX YYYYYY <xxx.yyyyyy@zzzzz.com>
 Table of Contents
 =================
 
-  I. Adding the meta-helloworld layer to your build
+  I. Adding the meta-rpi layer to your build
  II. Misc
 
 
-I. Adding the meta-helloworld layer to your build
+I. Adding the meta-rpi layer to your build
 =================================================
 
-Run 'bitbake-layers add-layer meta-helloworld'
+Run 'bitbake-layers add-layer meta-rpi'
 
 II. Misc
 ========
 
---- replace with specific information about the meta-helloworld layer ---
+--- replace with specific information about the meta-rpi layer ---
