@@ -8,10 +8,15 @@ IMAGE_INSTALL += "packagegroup-base-wifi"
 IMAGE_INSTALL += "usbutils"
 #IMAGE_INSTALL += "kernel-modules"
 
+
+
 IMAGE_FEATURES += "ssh-server-dropbear splash"
 
-DISTRO_FEATURES_append = " bluez5 bluetooth wifi"
-IMAGE_INSTALL_append = " linux-firmware bluez5 i2c-tools python3-smbus bridge-utils hostapd dhcp-server iptables wpa-supplicant iw"
+DISTRO_FEATURES:append = " bluez5 bluetooth wifi"
+DISTRO_FEATURES:remove = " sysvinit"
+VIRTUAL-RUNTIME_init_manager = "systemd"
+
+IMAGE_INSTALL:append = " linux-firmware kernel-image kernel-devicetree linux-firmware-bcm43430 linux-firmware-bcm43455 bluez5 i2c-tools python3-smbus ca-certificates hostapd kea iptables wpa-supplicant iw"
 
 #IMAGE_INSTALL_append = " packagegroup-rpi-test"
 
