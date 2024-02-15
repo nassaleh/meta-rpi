@@ -1,0 +1,3 @@
+# other sshd_config options
+PermitEmptyPasswords yes
+
