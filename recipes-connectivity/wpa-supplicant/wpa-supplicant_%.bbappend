@@ -1,5 +1,3 @@
 FILESEXTRAPATHS:prepend := "${THISDIR}/${PN}:"
 
-SRC_URI += "file://wpa_supplicant.conf"
-
-inherit wpa-supplicant
+SRC_URI += "file://${THISDIR}/${PN}/wpa_supplicant.conf-sane"
