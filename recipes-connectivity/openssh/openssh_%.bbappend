@@ -1,3 +1,3 @@
 FILESEXTRAPATHS:prepend := "${THISDIR}/${PN}:"
 
-SRC_URI += "file://sshd_config"
+SRC_URI += "file://${THISDIR}/${BPN}/sshd_config"
