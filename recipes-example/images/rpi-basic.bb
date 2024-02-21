@@ -10,7 +10,7 @@ IMAGE_INSTALL += "usbutils"
 
 IMAGE_FEATURES += "ssh-server-dropbear splash debug-tweaks"
 
-DISTRO_FEATURES:append = " bluez5 bluetooth wifi"
+DISTRO_FEATURES:append = " bluez5 bluetooth wifi connman package_manager"
 DISTRO_FEATURES:remove = " sysvinit"
 VIRTUAL-RUNTIME_init_manager = "systemd"
 
